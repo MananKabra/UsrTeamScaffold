@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:unscriptrookiesfwm/pages/loginpageseller.dart';
+import 'components/navigation.dart';
 import 'constants/colour_constants.dart';
 
 class StartingPage extends StatefulWidget {
@@ -40,7 +42,11 @@ class _StartingPageState extends State<StartingPage> {
               SizedBox(height: 20),
               MaterialButton(
                 height: 50,
-                onPressed: (){},
+                onPressed: (){
+                  setState(() {
+                    RoutingPage.goToNext(context: context, navigateTo: loginPageSeller());
+                  });
+                },
                 color: kLightGreen,
                 child: Text(
                   'Start Selling',

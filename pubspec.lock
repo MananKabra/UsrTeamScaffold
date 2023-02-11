@@ -175,18 +175,15 @@ packages:
       sha256: ad540f65f92caa91bf21dfc8ffb8c589d6e4dc0c2267818b4cc2792857706206
       url: "https://pub.dev"
     source: hosted
-<<<<<<< HEAD
     version: "0.4.16"
-=======
-    version: "0.4.12"
   validation_textformfield:
     dependency: "direct main"
     description:
       name: validation_textformfield
-      url: "https://pub.dartlang.org"
+      sha256: d88d7b56f144690d82b3598262e8f2f3099c93d684a872ae42c230c4b4adaa6f
+      url: "https://pub.dev"
     source: hosted
     version: "2.2.5"
->>>>>>> bbb1e0d5e41b93e73be9dd219c6338b2de7d9dfc
   vector_math:
     dependency: transitive
     description:
@@ -196,9 +193,5 @@ packages:
     source: hosted
     version: "2.1.4"
 sdks:
-<<<<<<< HEAD
   dart: ">=2.18.0 <4.0.0"
-=======
-  dart: ">=2.18.0 <3.0.0"
   flutter: ">=1.17.0"
->>>>>>> bbb1e0d5e41b93e73be9dd219c6338b2de7d9dfc
