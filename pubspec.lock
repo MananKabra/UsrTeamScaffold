@@ -149,6 +149,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.4.12"
+  validation_textformfield:
+    dependency: "direct main"
+    description:
+      name: validation_textformfield
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.2.5"
   vector_math:
     dependency: transitive
     description:
@@ -158,3 +165,4 @@ packages:
     version: "2.1.2"
 sdks:
   dart: ">=2.18.0 <3.0.0"
+  flutter: ">=1.17.0"
