@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:unscriptrookiesfwm/starting_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,10 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.red,
-        body: Text("Hello"),
-      ),
+      home: StartingPage()
     );
   }
 }
